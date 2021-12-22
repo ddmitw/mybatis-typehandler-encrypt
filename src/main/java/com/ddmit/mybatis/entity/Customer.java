@@ -7,6 +7,7 @@ public class Customer {
 
     private Integer id;
 
+    /*需要加密/解密的字段,声明为加密类型实体类类型*/
     private Encrypt phone;
 
     private String address;
